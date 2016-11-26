@@ -1,0 +1,35 @@
+<snippet>
+    <content><![CDATA[
+<!DOCTYPE html>
+ 
+<head>
+ 
+    <title>${1:Title}</title>
+ 
+    <!-- Javascript -->
+    <script src="main.js"></script>
+ 
+    <!-- Internal CSS -->
+    <style type="text/css">
+ 
+        * { box-sizing: border-box; }
+        body { background-color: white; margin: 0; padding: 0; font-family: sans-serif; font-size: 12px; }
+        p { margin-bottom: 10px; }
+ 
+    </style>
+ 
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+ 
+</head>
+ 
+<body>
+ 
+    <p>Hello World!</p>
+ 
+</body>
+ 
+</html>
+]]></content>
+    <tabTrigger>html5</tabTrigger>
+</snippet>
